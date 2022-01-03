@@ -1,0 +1,17 @@
+header {
+  width: 300px;
+  height: 70px;
+  background-color: #6495ed;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+#menu-btn {
+  margin-right: 100px;
+}
