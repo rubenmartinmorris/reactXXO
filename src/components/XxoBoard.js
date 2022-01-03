@@ -1,7 +1,7 @@
-import './grid.css';
-export const Grid = () => {
+import './XxoBoard.css';
+export const XxoBoard = () => {
   return (
-    <div className='container'>
+    <div className='xxo-innergrid'>
       <div className='square x' id='0'></div>
       <div className='square o' id='1'></div>
       <div className='square' id='2'></div>
