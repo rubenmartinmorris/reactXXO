@@ -1,8 +1,15 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+//import { render, screen } from '@testing-library/react';
+//import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+import isValid from './App';
+
+describe('Is valid MatrixisValid should return true if the supplied matrix is 3X3 and contains nulls xes or oes', () => {
+  test('is 3 X 3', () => {
+    const matrix = [
+      [null, null, null],
+      [null, null, null],
+      [null, null, null],
+    ];
+    expect(isValid(matrix).toBe(true));
+  });
 });
